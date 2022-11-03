@@ -1,7 +1,7 @@
 package weCom
 
 import (
-	"github.com/ArtisanCloud/PowerSocialite/v2/src/models"
+	"github.com/yrzs/PowerSocialite/src/models"
 )
 
 type ResponseGetUserDetail struct {

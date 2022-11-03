@@ -1,4 +1,4 @@
-module github.com/ArtisanCloud/PowerSocialite/v2
+module github.com/yrzs/PowerSocialite
 
 go 1.17
 

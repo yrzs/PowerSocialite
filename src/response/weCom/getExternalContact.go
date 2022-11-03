@@ -1,6 +1,6 @@
 package weCom
 
-import "github.com/ArtisanCloud/PowerSocialite/v2/src/models"
+import "github.com/yrzs/PowerSocialite/src/models"
 
 type ResponseGetExternalContact struct {
 	*ResponseWeCom

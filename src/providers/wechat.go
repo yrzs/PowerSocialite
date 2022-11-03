@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/ArtisanCloud/PowerLibs/v2/http/contract"
 	"github.com/ArtisanCloud/PowerLibs/v2/object"
-	"github.com/ArtisanCloud/PowerSocialite/v2/src/response/wechat"
+	"github.com/yrzs/PowerSocialite/src/response/wechat"
 	"io/ioutil"
 	"reflect"
 	"time"

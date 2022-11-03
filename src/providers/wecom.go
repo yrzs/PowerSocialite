@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/ArtisanCloud/PowerLibs/v2/object"
-	"github.com/ArtisanCloud/PowerSocialite/v2/src/exceptions"
-	"github.com/ArtisanCloud/PowerSocialite/v2/src/response/weCom"
+	"github.com/yrzs/PowerSocialite/src/exceptions"
+	"github.com/yrzs/PowerSocialite/src/response/weCom"
 )
 
 type WeCom struct {
@@ -191,7 +191,7 @@ func (provider *WeCom) GetUser(token string, code string) (*weCom.ResponseGetUse
 		return nil, err
 	}
 	client.PerformRequest(
-		"https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo",
+		"https://qyapi.weixin.qq.com/cgi-bin/auth/getuserinfo",
 		"GET",
 		&object.HashMap{
 			"query": &object.StringMap{
@@ -379,7 +379,7 @@ func (provider *WeCom) GetUserDetail(userTicket string) (*weCom.ResponseGetUserD
 		return nil, err
 	}
 
-	_, err = client.PerformRequest("cgi-bin/user/getuserdetail", "POST",
+	_, err = client.PerformRequest("cgi-bin/auth/getuserdetail", "POST",
 		&object.HashMap{
 			"form_params": params,
 			"query":       query,

@@ -1,0 +1,1 @@
+源自[PowerWeChat](https://github.com/ArtisanCloud/PowerSocialite) SDK，修复了一些bug

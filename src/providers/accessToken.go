@@ -3,7 +3,7 @@ package providers
 import (
 	"errors"
 	"github.com/ArtisanCloud/PowerLibs/v2/object"
-	"github.com/ArtisanCloud/PowerSocialite/v2/src/contracts"
+	"github.com/yrzs/PowerSocialite/src/contracts"
 )
 
 type AccessToken struct {
